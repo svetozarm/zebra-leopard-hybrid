@@ -6,19 +6,17 @@ it has legs, but does it have a brain?
 ## Links
 
 Clang build tutorial:
-```
+
 http://clang.llvm.org/get_started.html
-```
 
 Sumner's LLVM project:
-```
+
 http://www.cs.sfu.ca/~wsumner/teaching/880-14/project2.html
-```
 
 GCC Build instructions:
-```
+
 https://solarianprogrammer.com/2012/04/13/building-gcc-4-7-on-ubuntu-12-04/
-```
+
 My build:
 ```
 export LD_LIBRARY_PATH=/usr/gcc-4.7/lib:$LD_LIBRARY_PATH
