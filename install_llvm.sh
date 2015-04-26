@@ -2,7 +2,7 @@
 
 apt-get install python m4 autoconf automake libtool subversion cmake
 
-cd /work
+cd /home/work
 svn co http://llvm.org/svn/llvm-project/llvm/trunk llvm
 
 cd llvm/tools
