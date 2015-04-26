@@ -22,4 +22,7 @@ cd build
 cmake -G "Unix Makefiles" ../llvm
 make
 
+echo export PATH=\$PATH:/home/work/build/bin >> /root/.bashrc
+echo export LLVM_BUILD=/home/work/build >> /root/.bashrc
+echo export LLVM_SOURCE=/home/work/llvm-3.5.0.src/ >> /root/.bashrc
 
