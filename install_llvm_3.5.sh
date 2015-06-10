@@ -28,10 +28,13 @@ rm compiler-rt-3.5.0.src.tar.xz
 mv compiler-rt-3.5.0.src compiler-rt
 cd ../..
 
-mkdir build
-cd build
-cmake -G "Unix Makefiles" ../llvm-3.5.0.src
+cd llvm-3.5.0.src/
+./configure
 make -j4
+#mkdir build
+#cd build
+#cmake -G "Unix Makefiles" ../llvm-3.5.0.src
+#make -j4
 
 echo export PATH=\$PATH:/home/work/build/bin >> /root/.bashrc
 echo export LLVM_BUILD=/home/work/build >> /root/.bashrc
