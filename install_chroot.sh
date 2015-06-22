@@ -12,7 +12,7 @@ then
     sudo echo "description=Ubuntu Trusty" >> /etc/schroot/schroot.conf
     sudo echo "location=$TARGET_DIR" >> /etc/schroot/schroot.conf
     sudo echo "priority=3" >> /etc/schroot/schroot.conf
-    sudo echo "users=svetozar" >> /etc/schroot/schroot.conf
+    sudo echo "users=root" >> /etc/schroot/schroot.conf
     sudo echo "root-groups=root" >> /etc/schroot/schroot.conf
 fi
 
