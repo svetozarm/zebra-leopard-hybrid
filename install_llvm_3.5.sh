@@ -36,6 +36,7 @@ make -j4
 #cmake -G "Unix Makefiles" ../llvm-3.5.0.src
 #make -j4
 
-echo export PATH=\$PATH:/home/work/build/bin >> /root/.bashrc
-echo export LLVM_BUILD=/home/work/build >> /root/.bashrc
-echo export LLVM_SOURCE=/home/work/llvm-3.5.0.src/ >> /root/.bashrc
+mkdir /home/$SUDO_USER
+echo export PATH=\$PATH:/home/work/llvm-3.5.0.src/Release+Asserts/bin >> /home/$SUDO_USER/.bashrc
+echo export LLVM_BUILD=/home/work/llvm-3.5.0.src/Release+Asserts >> /home/$SUDO_USER/.bashrc
+echo export LLVM_SOURCE=/home/work/llvm-3.5.0.src/ >> /home/$SUDO_USER/.bashrc
